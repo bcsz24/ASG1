@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn=mysqli_connect("localhost","root","","giftstore");
+$conn=mysqli_connect("asg.c3xlfe0cgq8r.us-east-1.rds.amazonaws.com","admin","12345abc","giftstore");
 $count=0;
 ?>
 <!doctype html>

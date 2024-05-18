@@ -6,7 +6,7 @@ if(!isset($_SESSION["userid"]))
 }
 if(isset($_POST['submit']))
 {
-$conn=mysqli_connect("localhost","root","","giftstore");
+$conn=mysqli_connect("asg.c3xlfe0cgq8r.us-east-1.rds.amazonaws.com","admin","12345abc","giftstore");
 $fname=$_POST["fname"];
 $lname=$_POST["lname"];
 $email=$_POST["email"];
